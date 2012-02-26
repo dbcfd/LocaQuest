@@ -1,0 +1,9 @@
+# Properties in this file will be read when running in dev mode
+foursquare.callback=localhost:8080
+foursquare.client.id=CW14C1TQVGHFR2CMXWWLJPFUSZNWE00P52BZAC2WPGFPGEK4
+foursquare.client.secret=R2NSPELUTSQVMVP5OSHAZ4O11KVFZ3LAAO1W11FWRERHLG5Q
+
+mongodb.address=localhost
+mongodb.port=27017
+
+logback.configuration=logback.xml
