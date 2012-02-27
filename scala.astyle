@@ -1,0 +1,8 @@
+style=java
+indent=spaces=4
+indent-classes
+indent-cases
+pad-oper
+pad-paren
+fill-empty-lines
+mode=java
