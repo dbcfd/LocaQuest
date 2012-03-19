@@ -12,10 +12,28 @@ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
   <filter-class>net.liftweb.http.LiftFilter</filter-class>
 </filter>
   	
+<<<<<<< HEAD
+<filter-mapping>
+  <filter-name>LiftFilter</filter-name>
+  <url-pattern>/</url-pattern>
+</filter-mapping>
+
+    <filter-mapping>
+        <filter-name>LiftFilter</filter-name>
+        <url-pattern>/*.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>LiftFilter</filter-name>
+        <url-pattern>/game/*</url-pattern>
+    </filter-mapping>
+
+=======
 
 <filter-mapping>
   <filter-name>LiftFilter</filter-name>
   <url-pattern>/*</url-pattern>
 </filter-mapping>
 
+>>>>>>> 935170e7f830af268d7e43e24fcf559764651270
 </web-app>
